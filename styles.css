@@ -1,0 +1,47 @@
+ 
+/* positioning the images */
+
+.image1 {
+  img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+}
+
+.image2 {
+  display: flex;
+  justify-content: space-between
+  }
+
+
+/* navigation bar */
+
+nav {
+  float: right;
+}
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+
+/* wrapping text in the centre gof the page */
+
+.div {
+  width: 430px;
+  text-align : center;
+  }
+.wrap {
+  word-wrap: normal;
+}
