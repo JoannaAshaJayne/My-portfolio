@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+body {
+  margin: 0;
+  background: white;
+  font-family: 'Spartan', serif;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+nav li {
+  display: inline-block;
+  margin: 0 35px;
+}
