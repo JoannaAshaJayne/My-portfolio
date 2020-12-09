@@ -1,11 +1,21 @@
  
+/* display grid */
+
+
+
 /* positioning the top yellow blobs */
 
-#image {
-  width: 200px;
-  height: 200px;
-  transform: rotate(10deg);
-  padding: 5px;
+.blob {
+  width: 500px;
+  height: 500px;
+  margin-right: 10em;
+  object-fit: none;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+#object{
+  object-position: 100% 200%;
 }
 
 /* navigation bar */
@@ -84,6 +94,23 @@ transition: all ease-in-out 250ms;
 nav a:hover::before {
   width: 100%;
 }
+
+/* Hi there! I'm Joanna Hughes! An aspiring software developer */
+
+h1 {
+  position: relative;
+  top: 10px;
+  left: 700px;
+  font-size: 80px;
+}
+
+h2 {
+  position: relative;
+  top: 10px;
+  left: 700px;
+  font-size: 35px;
+}
+
 
 /* wrapping text in the centre gof the page */
 
