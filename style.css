@@ -258,14 +258,4 @@ p{
   font-family: 'spartan';
 }
 
-/* adding a footer*/
-
-Footer {
-  width: 100%;
-  height: 50%;
-  background-color: #f19820;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  height: 6.5%;
-}
+/* adding a footer */
