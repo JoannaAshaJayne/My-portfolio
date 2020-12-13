@@ -1,3 +1,3 @@
 $(".btn").click(function(){
-    $(".input, .area").val("");
+    $(".input, .area").val("joannahughes@hotmail.co.uk");
   });
