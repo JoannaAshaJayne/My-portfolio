@@ -166,6 +166,15 @@ li {
   word-wrap: normal;
 }
 
+
+/* portfolio */
+
+.portfolio {
+  background-color:  #f9d564;
+  padding: 10em;
+  bottom: 50px;
+}
+
 /* adding a footer*/
 
 Footer {
