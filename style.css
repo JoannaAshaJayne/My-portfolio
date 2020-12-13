@@ -115,6 +115,12 @@ h2 {
   font-size: 35px;
 }
 
+/* ABOUT ME grid block*/
+
+.grid {
+  background-color:  #ffbd59;
+  padding: 15em;
+}
 
 /* wrapping text in the centre gof the page */
 
