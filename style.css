@@ -6,8 +6,22 @@
   margin-right: 10em;
   top: -90px;
   left: -9rem;
-  z-index: -1;
+  z-index: 100;
   transform: rotate(-10deg);
+  position: absolute;
+}
+
+#object{
+  object-position: 100% 200%;
+}
+
+.joanna {
+  width: 600px;
+  height: 650px;
+  margin-right: 10em;
+  top: -90px;
+  right: -9rem;
+  z-index: 100;
   position: absolute;
 }
 
@@ -21,6 +35,7 @@ body {
   background: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
+  z-index: 100;
 }
 
 
@@ -112,16 +127,25 @@ h2 {
 
 /* ABOUT ME grid block*/
 
+ul {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+li {
+  background-color: white;
+}
+
 .grid {
   background-color:  #ffbd59;
-  padding: 15em;
+  padding: 10em;
   bottom: 50px;
 }
 .manchester {
   width: 300px;
   height: 500px;
   margin-right: 10em;
-  bottom: 60px;
+  bottom: -20px;
   right: -15rem;
   z-index: 100;
   transform: rotate(-20deg);
