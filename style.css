@@ -1,13 +1,13 @@
  /* positioning the top yellow blobs */
 
 .blob {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 650px;
   margin-right: 10em;
-  top: -50px;
-  left: 4rem;
+  top: -90px;
+  left: -9rem;
   z-index: -1;
-  transform: rotate(30deg);
+  transform: rotate(-10deg);
   position: absolute;
 }
 
@@ -115,14 +115,15 @@ h2 {
 .grid {
   background-color:  #ffbd59;
   padding: 15em;
+  bottom: 50px;
 }
 .manchester {
   width: 300px;
   height: 500px;
   margin-right: 10em;
-  bottom: 10px;
-  right: -10rem;
-  z-index: -1;
+  bottom: 60px;
+  right: -15rem;
+  z-index: 100;
   transform: rotate(-20deg);
   position: absolute;
 }
