@@ -9,8 +9,10 @@
   width: 500px;
   height: 500px;
   margin-right: 10em;
-  object-fit: none;
-  transform: rotate(25deg);
+  top: -50px;
+  left: 4rem;
+  z-index: -1;
+  transform: rotate(30deg);
   position: absolute;
 }
 
@@ -34,6 +36,8 @@ body {
 
 header {
 background: #ffffff;
+position: relative;
+z-index: -2;
 }
 
 header::after {
