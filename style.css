@@ -1,9 +1,4 @@
- 
-/* display grid */
-
-
-
-/* positioning the top yellow blobs */
+ /* positioning the top yellow blobs */
 
 .blob {
   width: 500px;
@@ -120,6 +115,20 @@ h2 {
 .grid {
   background-color:  #ffbd59;
   padding: 15em;
+}
+.manchester {
+  width: 300px;
+  height: 500px;
+  margin-right: 10em;
+  bottom: 10px;
+  right: -10rem;
+  z-index: -1;
+  transform: rotate(-20deg);
+  position: absolute;
+}
+
+#object{
+  object-position: 100% 200%;
 }
 
 /* wrapping text in the centre gof the page */
