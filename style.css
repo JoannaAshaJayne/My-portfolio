@@ -168,10 +168,12 @@ li {
 
 /* wrapping text in the centre gof the page */
 
-.div {
+.paragraph {
   width: 430px;
   text-align : center;
+  z-index: 100;
   }
+
 .wrap {
   word-wrap: normal;
 }
